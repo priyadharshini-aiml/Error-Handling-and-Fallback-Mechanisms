@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>ML Error Handling</title>
+
+<style>
+
+body{
+font-family: Arial, sans-serif;
+margin:0;
+background:#f5f0ff;
+}
+
+/* Header */
+header{
+background:linear-gradient(90deg,#b39ddb,#9575cd);
+text-align:center;
+padding:40px;
+color:white;
+}
+
+header h1{
+color:white;
+}
+
+header h2{
+color:white;
+}
+
+/* Navigation */
+nav{
+background:#7e57c2;
+padding:12px;
+text-align:center;
+}
+
+nav a{
+color:white;
+margin:15px;
+text-decoration:none;
+font-size:18px;
+}
+
+nav a:hover{
+color:#e1bee7;
+}
+
+/* Container */
+.container{
+width:90%;
+margin:auto;
+}
+
+/* Cards */
+.card{
+background:white;
+margin:25px 0;
+padding:25px;
+border-radius:12px;
+box-shadow:0 5px 12px rgba(0,0,0,0.1);
+border-left:8px solid #b39ddb;
+}
+
+h2{
+color:#7e57c2;
+}
+
+ul{
+line-height:1.8;
+}
+
+/* Highlight box */
+.highlight{
+background:#ede7f6;
+padding:15px;
+border-left:5px solid #9575cd;
+margin-top:15px;
+}
+
+/* Image */
+img{
+display:block;
+margin:auto;
+margin-top:15px;
+border-radius:10px;
+}
+
+/* Footer */
+footer{
+background:#9575cd;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:30px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Machine Learning Fundamentals</h1>
+<h2>Error Handling & Fallback Mechanisms</h2>
+<p>Improving Reliability in Machine Learning Systems</p>
+</header>
+
+<nav>
+<a href="#intro">Introduction</a>
+<a href="#errors">Errors</a>
+<a href="#handling">Handling</a>
+<a href="#fallback">Fallback</a>
+<a href="#importance">Importance</a>
+</nav>
+
+<div class="container">
+
+<div class="card" id="intro">
+<h2>Introduction</h2>
+<p>
+Machine Learning systems analyze large datasets to make predictions.
+However, errors may occur due to missing data, incorrect inputs, or system failures.
+Error handling and fallback mechanisms ensure that the system continues working
+even when unexpected problems occur.
+</p>
+</div>
+
+<div class="card" id="errors">
+<h2>Common Errors in Machine Learning</h2>
+
+<ul>
+<li>Missing or incomplete data</li>
+<li>Incorrect data format</li>
+<li>Prediction failure</li>
+<li>Network or server issues</li>
+<li>Data preprocessing mistakes</li>
+</ul>
+
+<img src="ml_error.png" width="400">
+
+</div>
+
+<div class="card" id="handling">
+<h2>Error Handling Techniques</h2>
+
+<ul>
+<li>Data validation</li>
+<li>Exception handling</li>
+<li>Error logging</li>
+<li>Monitoring model performance</li>
+<li>Sending alerts to developers</li>
+</ul>
+
+</div>
+
+<div class="card" id="fallback">
+<h2>Fallback Mechanisms</h2>
+
+<ul>
+<li>Using a backup model</li>
+<li>Returning default predictions</li>
+<li>Switching to rule-based systems</li>
+<li>Retrying prediction after cleaning data</li>
+<li>Displaying user-friendly error messages</li>
+</ul>
+
+</div>
+
+<div class="card" id="importance">
+<h2>Importance</h2>
+
+<ul>
+<li>Improves reliability</li>
+<li>Prevents system crashes</li>
+<li>Ensures continuous service</li>
+<li>Enhances user trust</li>
+<li>Helps developers detect problems quickly</li>
+</ul>
+
+<div class="highlight">
+Example: Many AI recommendation systems provide popular suggestions
+when the personalized ML model cannot generate predictions.
+</div>
+
+</div>
+
+</div>
+
+<footer>
+<p>Machine Learning Fundamentals Project</p>
+<p>Error Handling and Fallback Mechanisms</p>
+</footer>
+
+</body>
+</html>
